@@ -61,12 +61,22 @@
                     </div>
                     <div class="row">
                         <div class="col mb-3">
-                            <label for="formGroupExampleInput6" class="form-label">We accept:</label>
-                            <input type="text" class="form-control" aria-label="Payment methods">
+                            <p>We accept:</p>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">MC</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">VISA</label>
+                              </div>
                         </div>
                         <div class="col mb-3">
                             <label for="formGroupExampleInput7" class="form-label">Message</label>
-                            <input type="text" class="form-control" aria-label="Message">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                Add any notes here.
+                            </div>
                         </div>
                     </div>
                 </div>
